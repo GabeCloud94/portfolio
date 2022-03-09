@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  line-height: 1;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #efe4f9;
+  background-image: url("../images/modern-architecture-contemporary-purple-building-clear-sky-3872x2592-2531.jpg");
+  background-size: 100%;
+  height: 100vh;
+  width: auto;
+  background-repeat: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  display: flex;
+}
+
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding-top: 6rem;
+}
+
+.HeaderName {
+  padding-left: 15rem;
+  font-size: 6.4rem;
+  font-weight: 500;
+  color: #5c4670;
+  text-shadow: 0px 4px 4px rgba(163, 149, 178, 0.28);
+}
+
+.NavBar {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  gap: 4.8rem;
+  padding-right: 15rem;
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: #5c4670;
+  text-shadow: 0px 4px 4px rgba(163, 149, 178, 0.28);
+}
+
+.TitleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64rem;
+  padding-top: 6.4rem;
+  margin-bottom: 32rem;
+}
+
+.TitleText {
+  font-size: 6.4rem;
+  color: #efe4f9;
+  text-shadow: 0px 4px 4px #5c4670;
+}
+
+.AboutContainer {
+  // margin-top: 32rem;
+  background: #100519;
+  height: 75rem;
+  display: flex;
+}
+
+.AboutTitle {
+  font-size: 6.4rem;
+  font-weight: 500;
+  padding-top: 12rem;
+  padding-left: 15rem;
+  color: #a395b2;
+}
+
+.AboutText {
+  font-size: 3.6rem;
+  padding-top: 6.4rem;
+  padding-left: 15rem;
+  text-align: justify;
+  padding-right: 6.4rem;
+  line-height: 150%;
+  color: #efe4f9;
+}
+
+.PersonalPhoto {
+  height: 50rem;
+  width: auto;
+  border-radius: 50%;
+  float: right;
+  margin-top: 16.8rem;
+  margin-right: 15rem;
+  margin-left: 6.4rem;
+}
+
+.ProjectContainer {
+  height: 108rem;
+  width: 100%;
+  background: #332045;
+  display: flex;
+}
+
+.CardContainer {
+  width: 100vw;
+  display: flex;
+  padding: 12rem 15rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8.6rem;
+}
+
+.ProjectCard {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  background: #100519;
+  height: 40rem;
+  width: 36rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(78, 44, 112, 0.39);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.ProjectCard:hover {
+  transform: scale(1.1);
+}
+
+.CardLink {
+  text-decoration: none;
+}
+
+.CardPic {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.CardCaption {
+  color: #efe4f9;
+  font-size: 1.4rem;
+  padding-top: 0.4rem;
+}
+
+.TechUsed {
+  padding-top: 1rem;
+  font-size: 3.4rem;
+  font-weight: 500;
+  color: #efe4f9;
+}
+
+.TechList {
+  padding-top: 1rem;
+  text-align: left;
+  padding-left: 4.8rem;
+  font-size: 1.6rem;
+  color: #efe4f9;
+}
+
+.TechList li {
+  list-style-type: disc;
+  display: list-item;
+  line-height: 1.5;
+}
+
+.ContactContainer {
+  height: 30rem;
+  background-color: #100519;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LinkContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  width: 60rem;
+}
+
+.GitHubLink {
+  height: 20rem;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
+}
+
+.LinkedInLink {
+  height: 20rem;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
+  border-radius: 12px;
+}
