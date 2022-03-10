@@ -18,6 +18,15 @@ body {
   overflow-x: hidden;
   -ms-overflow-style: none;
   color: #efe4f9;
+  display: flex;
+  background-color: black;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.Background1 {
   background-image: url("../images/modern-architecture-contemporary-purple-building-clear-sky-3872x2592-2531.jpg");
   background-size: 100%;
   height: 100vh;
@@ -26,24 +35,25 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-color: black;
-  display: flex;
+  overflow: hidden;
 }
 
-body::-webkit-scrollbar {
-  display: none;
+.HeaderWrap {
+  display: flex;
+  justify-content: center;
 }
 
 .HeaderContainer {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   align-items: center;
-  width: 100vw;
-  padding-top: 6rem;
+  padding: 6rem 8rem;
+  overflow: hidden;
 }
 
 .HeaderName {
-  padding-left: 15rem;
-  font-size: 6.4rem;
+  font-size: 4.8rem;
   font-weight: 500;
   color: #5c4670;
   text-shadow: 0px 4px 4px rgba(163, 149, 178, 0.28);
@@ -53,10 +63,10 @@ body::-webkit-scrollbar {
   display: flex;
   text-decoration: none;
   list-style: none;
+  justify-content: center;
   align-items: center;
   gap: 4.8rem;
-  padding-right: 15rem;
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   font-weight: 500;
   color: #5c4670;
   text-shadow: 0px 4px 4px rgba(163, 149, 178, 0.28);
@@ -70,49 +80,47 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   height: 64rem;
-  padding-top: 6.4rem;
-  margin-bottom: 32rem;
 }
 
 .TitleText {
-  font-size: 6.4rem;
+  font-size: 4.8rem;
   color: #efe4f9;
   text-shadow: 0px 4px 4px #5c4670;
 }
 
 .AboutContainer {
-  // margin-top: 32rem;
   background: #100519;
-  height: 65rem;
+  height: 45rem;
   display: flex;
+  padding: 8rem 15rem;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.AboutWords {
+  width: 70rem;
 }
 
 .AboutTitle {
-  font-size: 6.4rem;
+  font-size: 4.8rem;
   font-weight: 500;
-  padding-top: 8rem;
-  padding-left: 15rem;
   color: #a395b2;
+  padding-bottom: 2.4rem;
 }
 
 .AboutText {
-  font-size: 3.6rem;
-  padding-top: 6.4rem;
-  padding-left: 15rem;
+  font-size: 2.4rem;
+
   text-align: justify;
-  padding-right: 6.4rem;
   line-height: 150%;
   color: #efe4f9;
 }
 
 .PersonalPhoto {
-  height: 50rem;
+  height: 30rem;
   width: auto;
   border-radius: 50%;
   float: right;
-  margin-top: 8rem;
-  margin-right: 15rem;
-  margin-left: 6.4rem;
 }
 
 .ProjectContainer {
@@ -120,12 +128,15 @@ body::-webkit-scrollbar {
   width: 100%;
   background: #332045;
   display: flex;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .CardContainer {
-  width: 100vw;
+  height: 100vh;
+  width: 100%;
   display: flex;
-  padding: 8rem 15rem;
+  padding: 8rem 2.4rem;
   flex-wrap: wrap;
   justify-content: center;
   gap: 8.6rem;
@@ -168,7 +179,7 @@ body::-webkit-scrollbar {
 
 .TechUsed {
   padding-top: 1rem;
-  font-size: 3.4rem;
+  font-size: 2.4rem;
   font-weight: 500;
   color: #efe4f9;
 }
@@ -193,6 +204,7 @@ body::-webkit-scrollbar {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .LinkContainer {

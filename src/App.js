@@ -8,9 +8,13 @@ import Contact from "./components/Contact";
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Title />
+    <div id="wrapper">
+      <div className="Background1">
+        <div className="HeaderWrap">
+          <Header />
+        </div>
+        <Title />
+      </div>
       <About />
       <Projects />
       <Contact />
