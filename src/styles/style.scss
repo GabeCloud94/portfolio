@@ -180,7 +180,7 @@ body::-webkit-scrollbar {
 
 .CardCaption {
   color: #a395b2;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding-top: 0.4rem;
 }
 
@@ -280,7 +280,7 @@ body::-webkit-scrollbar {
   }
 
   .CardCaption {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   .TechUsed {
@@ -288,7 +288,7 @@ body::-webkit-scrollbar {
   }
 
   .TechList {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -343,7 +343,10 @@ body::-webkit-scrollbar {
     font-size: 3.6rem;
   }
   .NavBar {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+  }
+  .TitleText {
+    font-size: 4rem;
   }
   .AboutContainer {
     padding: 6rem 8rem;
@@ -355,18 +358,88 @@ body::-webkit-scrollbar {
     font-size: 3.2rem;
   }
   .AboutText {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
-  .TitleText {
-    font-size: 4rem;
-  }
   .ProjectContainer {
-    height: 224rem;
+    height: 130rem;
   }
 
   .CardContainer {
-    height: 224rem;
+    height: 130rem;
+  }
+  .ProjectCard {
+    height: 30rem;
+    width: 24rem;
+  }
+  .TechUsed {
+    font-size: 1.8rem;
+    padding-top: 1.2rem;
+  }
+
+  .TechList {
+    padding-top: 1rem;
+  }
+
+  .TechList li {
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .HeaderContainer {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .AboutContainer {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    gap: 4rem;
+  }
+
+  .AboutTitle {
+    font-size: 2.8rem;
+  }
+  .ProjectContainer {
+    height: 200rem;
+  }
+
+  .CardContainer {
+    height: 200rem;
     width: 55%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .HeaderContainer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .HeaderName {
+    font-size: 2.2rem;
+  }
+  .NavBar {
+    gap: 1rem;
+  }
+  .TitleText {
+    font-size: 2.4rem;
+  }
+  .AboutContainer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex-wrap: wrap;
+    height: 65rem;
+  }
+  .AboutTitle {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .HeaderName {
+    opacity: 0;
+  }
+  .TitleText {
+    font-size: 1.8rem;
   }
 }

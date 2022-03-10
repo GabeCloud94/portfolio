@@ -73,7 +73,7 @@ const Projects = () => {
               alt="JS Calculator"
             />
             <h3 className="CardCaption">
-              <em>Windows Calculator Replica</em>
+              <em>JS Calculator</em>
             </h3>
           </a>
           <div className="TechContainer">
