@@ -11,7 +11,9 @@ const Projects = () => {
               src={require("../images/rps-app.png")}
               alt="Rock, Paper, Scissors App"
             />
-            <h3 className="CardCaption">RPS App</h3>
+            <h3 className="CardCaption">
+              <em>RPS App</em>
+            </h3>
           </a>
           <div className="TechContainer">
             <h3 className="TechUsed">Technologies Used</h3>
@@ -29,7 +31,9 @@ const Projects = () => {
               src={require("../images/cloud-guitars.png")}
               alt="Cloud Guitars Website"
             />
-            <h3 className="CardCaption">Cloud Guitars</h3>
+            <h3 className="CardCaption">
+              <em>Cloud Guitars</em>
+            </h3>
           </a>
           <div className="TechContainer">
             <h3 className="TechUsed">Technologies Used</h3>
@@ -48,7 +52,9 @@ const Projects = () => {
               src={require("../images/tip-calc.png")}
               alt="JavaScript Tip Calculator"
             />
-            <h3 className="CardCaption">JS Tip Calculator</h3>
+            <h3 className="CardCaption">
+              <em>JS Tip Calculator</em>
+            </h3>
           </a>
           <div className="TechContainer">
             <h3 className="TechUsed">Technologies Used</h3>
@@ -66,7 +72,9 @@ const Projects = () => {
               src={require("../images/js-calc.png")}
               alt="JS Calculator"
             />
-            <h3 className="CardCaption">Windows Calculator Replica</h3>
+            <h3 className="CardCaption">
+              <em>Windows Calculator Replica</em>
+            </h3>
           </a>
           <div className="TechContainer">
             <h3 className="TechUsed">Technologies Used</h3>
@@ -84,7 +92,9 @@ const Projects = () => {
               src={require("../images/omnifood.png")}
               alt="Omnifood Site"
             />
-            <h3 className="CardCaption">Omnifood WebSite</h3>
+            <h3 className="CardCaption">
+              <em>Omnifood WebSite</em>
+            </h3>
           </a>
           <div className="TechContainer">
             <h3 className="TechUsed">Technologies Used</h3>

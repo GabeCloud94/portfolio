@@ -26,15 +26,21 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+}
+
 .Background1 {
   background-image: url("../images/modern-architecture-contemporary-purple-building-clear-sky-3872x2592-2531.jpg");
   background-size: 100%;
   height: 100vh;
-  width: auto;
+  width: 100%;
   background-repeat: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: #5c4670;
   overflow: hidden;
 }
 
@@ -95,6 +101,7 @@ body::-webkit-scrollbar {
   padding: 8rem 15rem;
   justify-content: center;
   gap: 10rem;
+  overflow: hidden;
 }
 
 .AboutWords {
@@ -125,21 +132,21 @@ body::-webkit-scrollbar {
 
 .ProjectContainer {
   height: 108rem;
-  width: 100%;
   background: #332045;
   display: flex;
   justify-content: center;
-  overflow: hidden;
+  align-items: center;
 }
 
 .CardContainer {
-  height: 100vh;
-  width: 100%;
+  height: 108rem;
+  width: 65%;
   display: flex;
-  padding: 8rem 2.4rem;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 8.6rem;
+  align-items: center;
+  gap: 8rem;
+  padding: 8rem 0;
 }
 
 .ProjectCard {
@@ -172,22 +179,22 @@ body::-webkit-scrollbar {
 }
 
 .CardCaption {
-  color: #efe4f9;
+  color: #a395b2;
   font-size: 1.4rem;
   padding-top: 0.4rem;
 }
 
 .TechUsed {
-  padding-top: 1rem;
+  padding-top: 1.4rem;
   font-size: 2.4rem;
   font-weight: 500;
   color: #efe4f9;
 }
 
 .TechList {
-  padding-top: 1rem;
+  padding-top: 1.2rem;
   text-align: left;
-  padding-left: 4.8rem;
+  padding-left: 6rem;
   font-size: 1.6rem;
   color: #efe4f9;
 }
@@ -199,7 +206,7 @@ body::-webkit-scrollbar {
 }
 
 .ContactContainer {
-  height: 30rem;
+  height: 20rem;
   background-color: #100519;
   display: flex;
   align-items: center;
@@ -215,14 +222,151 @@ body::-webkit-scrollbar {
 }
 
 .GitHubLink {
-  height: 20rem;
+  height: 10rem;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);
 }
 
 .LinkedInLink {
-  height: 20rem;
+  height: 10rem;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);
   border-radius: 12px;
+}
+
+@media screen and (max-width: 1900px) {
+  .CardContainer {
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 1790px) {
+  .CardContainer {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .CardContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1392px) {
+  .Background1 {
+    background: #5c4670;
+  }
+
+  .HeaderName,
+  .NavBar {
+    color: #fff;
+  }
+
+  .AboutWords {
+    width: 55rem;
+  }
+
+  .AboutText {
+    font-size: 1.8rem;
+  }
+
+  .PersonalPhoto {
+    height: 26rem;
+  }
+
+  .ProjectCard {
+    height: 36rem;
+    width: 30rem;
+  }
+
+  .CardCaption {
+    font-size: 1.2rem;
+  }
+
+  .TechUsed {
+    font-size: 2.2rem;
+  }
+
+  .TechList {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .HeaderName {
+    font-size: 4.2rem;
+  }
+
+  .NavBar {
+    font-size: 1.8rem;
+  }
+
+  .AboutContainer {
+    height: 35rem;
+  }
+
+  .AboutTitle {
+    font-size: 4.4rem;
+  }
+
+  .AboutText {
+    font-size: 1.6rem;
+  }
+
+  .PersonalPhoto {
+    height: 20rem;
+  }
+
+  .ProjectContainer {
+    height: 147rem;
+  }
+
+  .CardContainer {
+    height: 147rem;
+    width: 65%;
+  }
+
+  .ContactContainer {
+    height: 16rem;
+  }
+
+  .GitHubLink {
+    height: 8rem;
+  }
+
+  .LinkedInLink {
+    height: 8rem;
+  }
+}
+@media screen and (max-width: 990px) {
+  .HeaderName {
+    font-size: 3.6rem;
+  }
+  .NavBar {
+    font-size: 1.4rem;
+  }
+  .AboutContainer {
+    padding: 6rem 8rem;
+  }
+  .AboutWords {
+    width: 45rem;
+  }
+  .AboutTitle {
+    font-size: 3.2rem;
+  }
+  .AboutText {
+    font-size: 1.4rem;
+  }
+
+  .TitleText {
+    font-size: 4rem;
+  }
+  .ProjectContainer {
+    height: 224rem;
+  }
+
+  .CardContainer {
+    height: 224rem;
+    width: 55%;
+  }
 }
