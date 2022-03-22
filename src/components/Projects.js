@@ -66,7 +66,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="ProjectCard">
-          <a className="CardLink" href="/">
+          <a className="CardLink" href="https://shareme-gcloud.netlify.app">
             <img
               className="CardPic"
               src={require("../images/share-me.png")}
