@@ -264,7 +264,7 @@ body::-webkit-scrollbar {
   }
 
   .AboutText {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .PersonalPhoto {
@@ -325,6 +325,10 @@ body::-webkit-scrollbar {
 
   .ContactContainer {
     height: 16rem;
+  }
+
+  .TechList {
+    padding-left: 4rem;
   }
 
   .GitHubLink {
@@ -438,5 +442,8 @@ body::-webkit-scrollbar {
   }
   .TitleText {
     font-size: 1.8rem;
+  }
+  .TechList {
+    padding-left: 2rem;
   }
 }

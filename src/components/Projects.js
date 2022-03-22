@@ -69,19 +69,20 @@ const Projects = () => {
           <a className="CardLink" href="/">
             <img
               className="CardPic"
-              src={require("../images/js-calc.png")}
-              alt="JS Calculator"
+              src={require("../images/share-me.png")}
+              alt="ShareMe Website"
             />
             <h3 className="CardCaption">
-              <em>JS Calculator</em>
+              <em>ShareMe Website</em>
             </h3>
           </a>
           <div className="TechContainer">
             <h3 className="TechUsed">Technologies Used</h3>
             <ul className="TechList">
-              <li>HTML5</li>
-              <li>SCSS/SASS</li>
-              <li>Vanilla JavaScript</li>
+              <li>ReactJS</li>
+              <li>React-Router</li>
+              <li>Tailwind CSS</li>
+              <li>Sanity</li>
             </ul>
           </div>
         </div>
@@ -90,7 +91,7 @@ const Projects = () => {
             <img
               className="CardPic"
               src={require("../images/omnifood.png")}
-              alt="Omnifood Site"
+              alt="Omnifood Website"
             />
             <h3 className="CardCaption">
               <em>Omnifood WebSite</em>
