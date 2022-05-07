@@ -8,7 +8,7 @@ const Projects = () => {
     >
       <div className="flex flex-col gap-8 lg: gap-24 md:flex-row items-center justify-center">
         <div className="flex flex-col rounded-lg w-3/5 lg:w-1/5 bg-gray-100 items-center hover:scale-110 shadow-2xl hover:cursor-pointer">
-          <a href="/" target="_blank">
+          <a href="/" target="_blank" rel="noreferrer">
             <img
               className="rounded-t-lg"
               src={require("../images/cloud-guitars.png")}
@@ -30,7 +30,11 @@ const Projects = () => {
         </div>
 
         <div className="flex flex-col rounded-lg w-3/5 lg:w-1/5 bg-gray-100 items-center hover:scale-110 shadow-2xl hover:cursor-pointer">
-          <a href="https://shareme-gcloud.netlify.app" target="_blank">
+          <a
+            href="https://shareme-gcloud.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="rounded-t-lg"
               src={require("../images/share-me.png")}
@@ -55,6 +59,7 @@ const Projects = () => {
           <a
             href="https://ecommerce-sanity-stripe-ruddy.vercel.app/"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               className="rounded-t-lg"
