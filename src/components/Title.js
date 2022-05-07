@@ -4,8 +4,12 @@ import { ReactTypical } from "@deadcoder0904/react-typical";
 
 const Title = () => {
   return (
-    <div className="TitleContainer">
-      <h1 className="TitleText">
+    <div
+      alt="title background"
+      id="TitleContainer"
+      className="flex items-center justify-center bg-titlebg bg-cover bg-center h-screen bg-fixed"
+    >
+      <h1 className="text-lt-gray text-2xl lg:text-3xl">
         {" "}
         I am a
         <ReactTypical
@@ -14,7 +18,9 @@ const Title = () => {
           steps={[
             " Web Developer",
             1500,
-            " Web Designer",
+            " React Developer",
+            1500,
+            " React Enthusiast",
             1500,
             " Technology Enthusiast",
             1500,
