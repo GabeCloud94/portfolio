@@ -74,9 +74,9 @@ const Projects = () => {
             <h3 className="font-bold text-lg underline">Technologies Used</h3>
             <ul className="p-2 list-disc">
               <li>NextJS</li>
-              <li>Stripe</li>
               <li>Tailwind CSS</li>
               <li>Sanity</li>
+              <li>Stripe</li>
             </ul>
           </div>
         </div>
