@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       id="AboutContainer"
-      className="h-full bg-md-purple flex flex-col lg:flex-row justify-center items-center p-14 gap-8 lg:gap-32"
+      className="h-full bg-md-purple flex flex-col lg:flex-row justify-center items-center py-12 gap-8 lg:gap-32"
     >
       <img
         className="w-1/2 md:w-1/3 lg:w-1/4 rounded-full"

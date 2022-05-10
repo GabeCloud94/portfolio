@@ -4,21 +4,25 @@ const Projects = () => {
   return (
     <div
       id="ProjectContainer"
-      className="h-full bg-base-purple p-14 items-center justify-center"
+      className="h-full bg-base-purple py-12 md:px-8 items-center justify-center"
     >
-      <div className="flex flex-col gap-8 lg: gap-24 md:flex-row items-center justify-center">
-        <div className="flex flex-col rounded-lg w-3/5 lg:w-1/5 bg-gray-100 items-center hover:scale-110 shadow-2xl hover:cursor-pointer">
-          <a href="/" target="_blank" rel="noreferrer">
+      <div className="flex flex-col gap-12 md:gap-8 lg:gap-16 md:flex-row items-center justify-center">
+        <div className="flex flex-col rounded-2xl w-3/5 lg:w-1/5 bg-dark-purple items-center hover:scale-110 shadow-2xl hover:cursor-pointer">
+          <a
+            href="https://gabecloud94.github.io/Cloud-Guitars/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
-              className="rounded-t-lg"
+              className="rounded-t-2xl"
               src={require("../images/cloud-guitars.png")}
               alt="Cloud Guitars Website"
             />
-            <h3 className="text-base-purple font-bold text-center">
+            <h3 className="text-lt-gray font-bold text-center">
               <em>Cloud Guitars</em>
             </h3>
           </a>
-          <div className=" text-base-purple md:p-4 lg:p-2">
+          <div className=" text-lt-gray p-4 lg:p-2">
             <h3 className="font-bold text-lg underline">Technologies Used</h3>
             <ul className="p-2 list-disc">
               <li>HTML5</li>
@@ -29,22 +33,22 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="flex flex-col rounded-lg w-3/5 lg:w-1/5 bg-gray-100 items-center hover:scale-110 shadow-2xl hover:cursor-pointer">
+        <div className="flex flex-col rounded-2xl w-3/5 lg:w-1/5 bg-dark-purple items-center hover:scale-110 shadow-2xl hover:cursor-pointer">
           <a
             href="https://shareme-gcloud.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              className="rounded-t-lg"
+              className="rounded-t-2xl"
               src={require("../images/share-me.png")}
               alt="ShareMe Website"
             />
-            <h3 className="text-base-purple font-bold text-center">
+            <h3 className="text-lt-gray font-bold text-center">
               <em>ShareMe Website</em>
             </h3>
           </a>
-          <div className="text-base-purple md:p-4 lg:p-2">
+          <div className="text-lt-gray p-4 lg:p-2">
             <h3 className="font-bold text-lg underline">Technologies Used</h3>
             <ul className="p-2 list-disc">
               <li>ReactJS</li>
@@ -55,22 +59,22 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="flex flex-col rounded-lg w-3/5 lg:w-1/5 bg-gray-100 items-center hover:scale-110 shadow-2xl hover:cursor-pointer">
+        <div className="flex flex-col rounded-2xl w-3/5 lg:w-1/5 bg-dark-purple items-center hover:scale-110 shadow-2xl hover:cursor-pointer">
           <a
             href="https://ecommerce-sanity-stripe-ruddy.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              className="rounded-t-lg"
+              className="rounded-t-2xl"
               src={require("../images/e-commerce.jpg")}
               alt="E-Commerce Website"
             />
-            <h3 className="text-base-purple font-bold text-center">
+            <h3 className="text-lt-gray font-bold text-center">
               <em>E-Commerce Website</em>
             </h3>
           </a>
-          <div className="text-base-purple md:p-4 lg:p-2">
+          <div className="text-lt-gray p-4 lg:p-2">
             <h3 className="font-bold text-lg underline">Technologies Used</h3>
             <ul className="p-2 list-disc">
               <li>NextJS</li>

@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Header = () => (
   <div className="flex justify-between p-4 md:px-12 bg-dark-purple fixed top-0 z-50 w-screen">
-    <h2 className="text-xl md:text-2xl text-lt-gray hover:cursor-pointer">
+    <h2 className="text-lg md:text-2xl text-lt-gray hover:cursor-pointer">
       <Link
         activeClass="active"
         to="TitleContainer"
@@ -13,11 +13,12 @@ const Header = () => (
         Gabe Cloud
       </Link>
     </h2>
-    <ul className="flex gap-4 md:gap-8 items-center justify-items-center text-lg">
+    <ul className="flex gap-2 md:gap-8 items-center justify-items-center md:text-lg">
       <li className="text-lt-gray hover:text-lt-yellow hover:cursor-pointer">
         <Link
           activeClass="active"
           to="AboutContainer"
+          offset={-60}
           smooth={true}
           duration={1000}
         >
@@ -28,6 +29,7 @@ const Header = () => (
         <Link
           activeClass="active"
           to="ProjectContainer"
+          offset={-60}
           smooth={true}
           duration={1000}
         >

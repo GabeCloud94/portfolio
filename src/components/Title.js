@@ -9,7 +9,7 @@ const Title = () => {
       id="TitleContainer"
       className="flex items-center justify-center bg-titlebg bg-cover bg-center h-screen bg-fixed"
     >
-      <h1 className="text-lt-gray text-2xl lg:text-3xl">
+      <h1 className="text-lt-gray text-xl md:text-2xl lg:text-3xl">
         {" "}
         I am a
         <ReactTypical
